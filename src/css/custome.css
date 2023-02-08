@@ -963,7 +963,7 @@ image placekeeper
 .hero_section {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-   /* background-image: url("../images/evolv/hero_page/2.jpg");*/
+   
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -1002,22 +1002,85 @@ image placekeeper
    
 }
 
-.hero_section.profile{
-    height:auto
+
+
+
+.hero_section.profile {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: calc(100vh - 75px);
+    opacity: 1;
+    visibility: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
 }
+
+
+
+
+
 .hero_section.profile .container{
     z-index: 999;
 }
 
-.hero_section.profile p {
+.hero_section.profile h1 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: normal;
+    margin: 0;
+    color: #ff9921;
+    text-align: left;
+    line-height: normal;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 400;
+    padding-left: 30px;
+    display: block;
+   position: relative;
+}
+
+.hero_section.profile h1::before{
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   background-color: #ff9921;
+}
+
+.hero_section.profile h1 span{
     font-weight: 900;
-    font-size: 28px;
+    color: #ffd4a2
+    
+}
+
+
+
+.hero_section.profile p {
+    font-size: 20px;
     letter-spacing: 0px;
     line-height: 100px;
     margin: 0;
-    color: #ff9921;
+    color: #fff;
     text-align: center;
     line-height: normal;
+    padding-left: 30px;
+    padding-right: 100px;
+    display: block;
+
+
+}
+
+.hero_section.profile p a{
+    color:#ff2128
 }
 
 
@@ -1038,10 +1101,42 @@ image placekeeper
 }
 
 
-.hero_section h1 span {
-    color: var(--maincolor) !important;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+@media (max-width: 991px) {
+
+    .hero_section.profile {
+        height: auto;
+    }
+
+    .hero_section.profile h1 {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    .hero_section.profile p {
+        font-size: 19px;
+        padding-left: 20px;
+        padding-right:0px 
+    }
+    
+
+
+}
+
+@media (max-width: 767px) {
+
+    .hero_section.profile h1::before{
+        content: '';
+        width: 0px;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+       background-color: #ff9921;
+    }
+    
+    
+
+
 }
 
 .hero_section h2.bannertagline {
