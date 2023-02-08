@@ -1,0 +1,60 @@
+  /*================================
+      FORMS
+  =================================*/
+
+  #formblock{
+  }
+
+  #formblock input[type="checkbox"]{
+    width:15px !important;
+    height:15px !important;
+  }
+
+  #formblock input[type="text"],
+  #formblock input[type="Password"],
+  #formblock input[type="email"],
+  #formblock input[type="Website"],
+  #formblock input[type="number"],
+  #formblock #Domain
+
+  {
+    height: 40px !important;
+    border-radius: 0px !important;
+    border: 1px solid #dee2e6 !important;
+    padding: 10px
+  }
+  #formblock button.btn{
+    background-color: var(--maincolor);
+    border-radius: 0px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / %) !important;
+    padding: 8.2px 12.2px
+  }
+  #formblock button.btn:hover{
+    background-color: var(--hovercolor);
+  }
+
+
+
+  #formblock .formmandatory {
+    position: absolute;
+    left: 9px;
+    top: 4px;
+    color: red;
+    font-size: 13px;
+}
+
+.mandatory-msg{
+  font-size:13px;
+  font-style:italic;
+  color: gray;
+  width: 100%;
+}
+
+#formblock button.btn{
+  font-size: 15px !important;
+}
+
+.form-socialmedia-icons a{
+  width: 25px;
+  height: auto;
+}
