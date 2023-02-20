@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../img/logo.svg'
 import B20 from '../img/B20.jpg'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 
@@ -19,27 +19,30 @@ function header() {
                <div className="collapse navbar-collapse" id="navbarNav">
 
                   <ul className="navbar-nav mx-auto">
-                     <li className="nav-item dropdown @@about active show">
-                        <Link className="nav-link dropdown-toggle" to="" data-toggle="dropdown" aria-expanded="true">ABOUT
+                     <li className="nav-item dropdown @@about show">
+                        <NavLink className="nav-link dropdown-toggle" to="" data-toggle="dropdown" aria-expanded="true">ABOUT
                            <span><i className="ti-angle-down"></i></span>
-                        </Link>
+                        </NavLink>
                         <ul className="dropdown-menu show">
                            <li>
-                              <Link className="dropdown-item @profile " to="/profile">
+                              <NavLink className="dropdown-item @profile " to="/profile">
                                  PROFILE
-                              </Link>
+                              </NavLink>
                            </li>
                            <li>
-                           <Link className="dropdown-item @profile " to="/leader">
+                           <NavLink className="dropdown-item @profile " to="/leader">
                            LEADERSHIP
-                           </Link>
+                           </NavLink>
                         </li>
                         <li>
-                        <Link className="dropdown-item @profile" to="/profile">
+                        <NavLink className="dropdown-item @profile" to="/advisorcouncil">
                         ADVISORY COUNCIL
-                        </Link>
+                        </NavLink>
                      </li>
                         </ul>
+                     </li>
+                     <li className="nav-item @@CALENDAR ">
+                          <NavLink class="nav-link" to="/calender">CALENDAR</NavLink>
                      </li>
 
 

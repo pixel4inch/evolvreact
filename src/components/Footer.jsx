@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 import LinkedIn from '../img/Social_Icons/LinkedIn.png';
 import Facebook from '../img/Social_Icons/Facbook.png';
 import Instagarm from '../img/Social_Icons/Instagarm.png';
 import Twitter from '../img/Social_Icons/Twitter.png';
 import Youtube from '../img/Social_Icons/Youtube.png';
+
+
 
 
 function footer() {
@@ -19,14 +22,14 @@ function footer() {
 			<div className="col-xl-12 col-1g-12 col-md-12 col-12 mx-auto align-self-center">
 				<div className="block">
 					<ul className="footerLinks mb-0">
-					<li className="nav-item"><a href="#" target="_blank" className="nav-link">DATA DASHBOARD</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">VOLUNTEER</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">SPONSORS</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">MEDIA</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">PRIVACY POLICY</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">SERVICE AGREEMENT</a></li>	
-						<li className="nav-item"><a href="#" className="nav-link">PARTNERS</a></li>	
-						<li className="nav-item"><a href="#" className="nav-link">CONTACT</a></li>			
+					<li className="nav-item"><NavLink to="/datadashboard"  className="nav-link">DATA DASHBOARD</NavLink></li>
+						<li className="nav-item"><NavLink to="volunteer" className="nav-link">VOLUNTEER</NavLink></li>
+						<li className="nav-item"><NavLink to="/sponsors" className="nav-link">SPONSORS</NavLink></li>
+						<li className="nav-item"><NavLink to="/media" className="nav-link">MEDIA</NavLink></li>
+						<li className="nav-item"><NavLink to="/privacypolicy" className="nav-link">PRIVACY POLICY</NavLink></li>
+						<li className="nav-item"><NavLink to="/serviceaggrement" className="nav-link">SERVICE AGREEMENT</NavLink></li>	
+						<li className="nav-item"><NavLink to="/partner" className="nav-link">PARTNERS</NavLink></li>	
+						<li className="nav-item"><NavLink to="/contact" className="nav-link">CONTACT</NavLink></li>			
 					  </ul>
 				</div>
 			</div>
