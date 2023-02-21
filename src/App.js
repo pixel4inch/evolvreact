@@ -5,7 +5,7 @@ import './css/custome.css';
 import { Route, Routes } from "react-router-dom"
 
 // PAGES 
-import {Home, Leader, Profile, AdvisorCouncil, Calender, DataDashboard, Volunteer,  Sponsors, Media, PrivacyPolicy, ServiceAggrement, Partner,  Contact } from './pages'
+import {Home, Leader, Profile, AdvisorCouncil, InnovatorSynergies, Sustainability, IndianInfluencer, DiversityEquityInclusion, Calender, Login, Insider, MemberShip, Recognitions,DataDashboard, Volunteer,  Sponsors, Media, PrivacyPolicy, ServiceAggrement, Partner,  Contact } from './pages'
 
 // COMPONENTS
 import {Header,Footer } from './components'
@@ -17,12 +17,28 @@ function App() {
        <Header/>
        <div className='body-content'>
         <Routes>
+
            <Route path="/" exact element={<Home/>} />
+           {/* About */ }
             <Route path="/leader" exact element={<Leader/>} />
             <Route path="/profile" exact element={<Profile />} />
             <Route path="/advisorcouncil" exact element={<AdvisorCouncil/>}/>
             <Route path="/calender" exact element={<Calender/>}/>
+            
+            {/*PROGARM*/ }
 
+            <Route path="/innovatorSynergies" exact element={<InnovatorSynergies/>} />
+            <Route path="/stainability" exact element={<Sustainability/>} />
+            <Route path="/indianinfluencer" exact element={<IndianInfluencer/>}/>
+            <Route path="/diversityequityinclusion" exact element={<DiversityEquityInclusion/>}/>
+            
+            <Route path="/recognitions" exact element={<Recognitions/>}/>
+            <Route path="/memberShip" exact element={<MemberShip/>}/>
+            <Route path="/insider" exact element={<Insider/>}/>
+            <Route path="/login" exact element={<Login/>}/>
+
+    
+              {/*FOOTER*/ }
             <Route path="/datadashboard" exact element={<DataDashboard/>}/>
             <Route path="/volunteer" exact element={<Volunteer/>}/>
             <Route path="/sponsors" exact element={<Sponsors/>}/>
