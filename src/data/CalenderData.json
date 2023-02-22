@@ -5,7 +5,6 @@
             "Month": "APRIL 2023",
             "Event": [
                 {
-                    
                     "eventtype": "liveevent",
                     "Title": "Evolv™ 2023 KICKOFF",
                     "Title2": "B20 2023 ROADSHOW",
@@ -14,7 +13,7 @@
                     "dg": "",
                     "date": "April 04-06, 2023, Silicon Valley, California.",
                     "live": "live",
-                    "icon": "./images/evolv/icons/calender/live.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/live.png"
                 },
                 {
                     "eventtype": "",
@@ -24,7 +23,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "April 07",
-                    "icon": "./images/evolv/icons/calender/AI.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/AI.png"
                 },
                 {
                     "EventId": "femalelead",
@@ -33,7 +32,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "April 10",
-                    "icon": "./images/evolv/icons/calender/FemaleLed.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FemaleLed.png"
                 },
                 {
                     "EventId": "ism",
@@ -42,7 +41,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 11",
-                    "icon": "./images/evolv/icons/calender/startupmagic.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/startupmagic.png"
                 },
                 {
                     "EventId": "telecome5g",
@@ -51,7 +50,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 12",
-                    "icon": "./images/evolv/icons/calender/5G.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/5G.png"
                 },
                 {
                     "EventId": "ar",
@@ -60,7 +59,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 13",
-                    "icon": "./images/evolv/icons/calender/ar.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/ar.png"
                 },
                 {
                     "EventId": "nanotech",
@@ -69,7 +68,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 14",
-                    "icon": "./images/evolv/icons/calender/Nanotechnology.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Nanotechnology.png"
                 },
                 {
                     "EventId": "drones",
@@ -78,7 +77,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 17",
-                    "icon": "./images/evolv/icons/calender/Drones.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Drones.png"
                 },
                 {
                     "EventId": "edtech",
@@ -87,7 +86,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 18",
-                    "icon": "./images/evolv/icons/calender/EdTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/EdTech.png"
                 },
                 {
                     "EventId": "dei",
@@ -96,7 +95,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "April 20",
-                    "icon": "./images/evolv/icons/calender/Diversity.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Diversity.png"
                 },
                 {
                     "EventId": "ev",
@@ -105,7 +104,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "April 24",
-                    "icon": "./images/evolv/icons/calender/ElectricVehicles.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/ElectricVehicles.png"
                 },
                 {
                     "EventId": "digitalhealth",
@@ -114,7 +113,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "April 25",
-                    "icon": "./images/evolv/icons/calender/DigitalHealth.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/DigitalHealth.png"
                 },
                 {
                     "EventId": "deeptech",
@@ -123,7 +122,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "April 26",
-                    "icon": "./images/evolv/icons/calender/DeepTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/DeepTech.png"
                 },
                 {
                     "EventId": "scm",
@@ -132,7 +131,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 27",
-                    "icon": "./images/evolv/icons/calender/SupplyChain.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/SupplyChain.png"
                 },
                 {
                     "EventId": "gaming",
@@ -141,7 +140,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "April 28",
-                    "icon": "./images/evolv/icons/calender/Gaming.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Gaming.png"
                 }
             ]
         },
@@ -156,7 +155,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 02",
-                    "icon": "./images/evolv/icons/calender/AV.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/AV.png"
                 },
                 {
                     "EventId": "cryptocurrency",
@@ -165,7 +164,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 03",
-                    "icon": "./images/evolv/icons/calender/Cryptocurrency.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Cryptocurrency.png"
                 },
                 {
                     "EventId": "femaleunicon",
@@ -174,7 +173,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "May 04",
-                    "icon": "./images/evolv/icons/calender/FemaleUnicornFounders.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FemaleUnicornFounders.png"
                 },
                 {
                     "EventId": "cleantech",
@@ -183,7 +182,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 05",
-                    "icon": "./images/evolv/icons/calender/CleanTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/CleanTech.png"
                 },
                 {
                     "EventId": "biotech",
@@ -192,7 +191,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "May 08 ",
-                    "icon": "./images/evolv/icons/calender/Biotech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Biotech.png"
                 },
                 {
                     "EventId": "cloudtech",
@@ -201,7 +200,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 09",
-                    "icon": "./images/evolv/icons/calender/CloudTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/CloudTech.png"
                 },
                 {
                     "EventId": "hydrogen",
@@ -210,7 +209,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 10",
-                    "icon": "./images/evolv/icons/calender/Hydrogen.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Hydrogen.png"
                 },
                 {
                     "EventId": "cybersecurity",
@@ -219,7 +218,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 11",
-                    "icon": "./images/evolv/icons/calender/Cybersecurity.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Cybersecurity.png"
                 },
                 {
                     "EventId": "entertainment",
@@ -228,7 +227,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 12",
-                    "icon": "./images/evolv/icons/calender/Entertainment.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Entertainment.png"
                 },
                 {
                     "EventId": "agritech",
@@ -237,7 +236,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 16",
-                    "icon": "./images/evolv/icons/calender/AgriTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/AgriTech.png"
                 },
                 {
                     "EventId": "metaverse",
@@ -246,7 +245,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 18",
-                    "icon": "./images/evolv/icons/calender/Metaverse.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Metaverse.png"
                 },
                 {
                     "EventId": "robotic",
@@ -255,7 +254,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 19",
-                    "icon": "./images/evolv/icons/calender/Robotics.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Robotics.png"
                 },
                 {
                     "EventId": "web",
@@ -264,7 +263,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 15",
-                    "icon": "./images/evolv/icons/calender/Web3.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Web3.png"
                 },
                 {
                     "EventId": "batterytech",
@@ -273,7 +272,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 17",
-                    "icon": "./images/evolv/icons/calender/BT.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/BT.png"
                 },
                 {
                     "eventtype": "liveevent",
@@ -284,7 +283,7 @@
                     "dg": "",
                     "date": "May 22-25, 2023, New Delhi, India.",
                     "live": "live",
-                    "icon": "./images/evolv/icons/calender/live.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/live.png"
                 },
                 {
                     "EventId": "martech",
@@ -293,7 +292,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "May 29",
-                    "icon": "./images/evolv/icons/calender/MARTECH.png "
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/MARTECH.png "
                 }
             ]
         },
@@ -308,7 +307,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "June 06",
-                    "icon": "./images/evolv/icons/calender/Ecosystem.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Ecosystem.png"
                 },
                 {
                     "EventId": "blockchain",
@@ -317,7 +316,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 07",
-                    "icon": "./images/evolv/icons/calender/Blockchain.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Blockchain.png"
                 },
                 {
                     "EventId": "saas",
@@ -326,7 +325,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 09",
-                    "icon": "./images/evolv/icons/calender/sass.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/sass.png"
                 },
                 {
                     "EventId": "wellbeing",
@@ -335,7 +334,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 12",
-                    "icon": "./images/evolv/icons/calender/Wellbeing.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Wellbeing.png"
                 },
                 {
                     "EventId": "cx360",
@@ -344,7 +343,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 13",
-                    "icon": "./images/evolv/icons/calender/CX360.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/CX360.png"
                 },
                 {
                     "EventId": "digitalbanks",
@@ -353,7 +352,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 14",
-                    "icon": "./images/evolv/icons/calender/DigitalBanks.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/DigitalBanks.png"
                 },
                 {
                     "EventId": "qc",
@@ -362,7 +361,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 16",
-                    "icon": "./images/evolv/icons/calender/Quantum.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Quantum.png"
                 },
                 {
                     "EventId": "spacetech",
@@ -371,7 +370,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 19",
-                    "icon": "./images/evolv/icons/calender/SpaceTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/SpaceTech.png"
                 },
                 {
                     "EventId": "govtech",
@@ -380,7 +379,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 20",
-                    "icon": "./images/evolv/icons/calender/GovTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/GovTech.png"
                 },
                 {
                     "EventId": "foodtech",
@@ -389,7 +388,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 21",
-                    "icon": "./images/evolv/icons/calender/FoodTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FoodTech.png"
                 },
                 {
                     "EventId": "smartcities",
@@ -398,7 +397,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 22",
-                    "icon": "./images/evolv/icons/calender/SmartCities.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/SmartCities.png"
                 },
                 {
                     "EventId": "insurtech",
@@ -407,7 +406,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "June 23",
-                    "icon": "./images/evolv/icons/calender/InsureTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/InsureTech.png"
                 },
                 {
                     "eventtype": "liveevent",
@@ -418,7 +417,7 @@
                     "dg": "",
                     "date": "June 27-30, 2023, Silicon Valley, California.",
                     "live": "live",
-                    "icon": "./images/evolv/icons/calender/live.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/live.png"
                 }
             ]
         },
@@ -434,7 +433,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "July 03",
-                    "icon": "./images/evolv/icons/calender/Fashion.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Fashion.png"
                 },
                 {
                     "EventId": "hiringworkforce",
@@ -443,7 +442,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "July 05",
-                    "icon": "./images/evolv/icons/calender/HiringWorkforce.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/HiringWorkforce.png"
                 },
                 {
                     "EventId": "internetofthings",
@@ -452,7 +451,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "July 10",
-                    "icon": "./images/evolv/icons/calender/InternetofThings.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/InternetofThings.png"
                 }
             ]
         },
@@ -468,7 +467,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "August 02",
-                    "icon": "./images/evolv/icons/calender/DeepTech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/DeepTech.png"
                 },
                 {
                     "EventId": "genz",
@@ -477,7 +476,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 07",
-                    "icon": "./images/evolv/icons/calender/GenerationZ.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/GenerationZ.png"
                 },
                 {
                     "EventId": "fundrasing",
@@ -486,7 +485,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 08 ",
-                    "icon": "./images/evolv/icons/calender/FundRaising.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FundRaising.png"
                 },
                 {
                     "EventId": "futureofwork",
@@ -495,7 +494,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 09",
-                    "icon": "./images/evolv/icons/calender/FutureofWork.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FutureofWork.png"
                 },
                 {
                     "EventId": "madscience",
@@ -504,7 +503,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 10",
-                    "icon": "./images/evolv/icons/calender/MadScience.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/MadScience.png"
                 },
                 {
                     "EventId": "impactinvest",
@@ -513,7 +512,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 14",
-                    "icon": "./images/evolv/icons/calender/ImapctInvestment.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/ImapctInvestment.png"
                 },
                 {
                     "EventId": "failure",
@@ -522,7 +521,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 15",
-                    "icon": "./images/evolv/icons/calender/FailureAnalysis.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FailureAnalysis.png"
                 },
                 {
                     "EventId": "charity",
@@ -531,7 +530,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 16",
-                    "icon": "./images/evolv/icons/calender/NGO.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/NGO.png"
                 },
                 {
                     "EventId": "starup",
@@ -540,7 +539,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "August 17",
-                    "icon": "./images/evolv/icons/calender/Ecosystem.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Ecosystem.png"
                 },
                 {
                     "EventId": "techwizards",
@@ -549,7 +548,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 21",
-                    "icon": "./images/evolv/icons/calender/techwidge.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/techwidge.png"
                 },
                 {
                     "EventId": "powertech",
@@ -558,7 +557,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "August 22",
-                    "icon": "./images/evolv/icons/calender/Pow.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Pow.png"
                 },
                 {
                     "eventtype": "liveevent",
@@ -569,7 +568,7 @@
                     "dg": "",
                     "date": "August 23-27, 2023, New Delhi, India.",
                     "live": "live",
-                    "icon": "./images/evolv/icons/calender/b20.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/b20.png"
                 },
                 {
                     "EventId": "dei",
@@ -578,7 +577,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "August 28",
-                    "icon": "./images/evolv/icons/calender/Diversity.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Diversity.png"
                 },
                 {
                     "EventId": "biotech",
@@ -587,7 +586,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "August 29",
-                    "icon": "./images/evolv/icons/calender/Biotech.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/Biotech.png"
                 },
                 {
                     "EventId": "ev",
@@ -596,7 +595,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "August 30",
-                    "icon": "./images/evolv/icons/calender/ElectricVehicles.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/ElectricVehicles.png"
                 }
             ]
         },
@@ -612,7 +611,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "September 04",
-                    "icon": "./images/evolv/icons/calender/FemaleLed.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/FemaleLed.png"
                 },
                 {
                     "EventId": "digitalhealth",
@@ -621,7 +620,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "September 05",
-                    "icon": "./images/evolv/icons/calender/DigitalHealth.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/DigitalHealth.png"
                 },
                 {
                     "EventId": "ai",
@@ -630,7 +629,7 @@
                     "Multi": "Multi",
                     "dg": "",
                     "date": "September 06",
-                    "icon": "./images/evolv/icons/calender/AI.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/AI.png"
                 },
                 {
                     "EventId": "mdi",
@@ -639,7 +638,7 @@
                     "Multi": "",
                     "dg": "",
                     "date": "September 07",
-                    "icon": "./images/evolv/icons/calender/MedicalDeviceInnovation.png"
+                    "icon": "https://www.evolv.cc/images/evolv/icons/calender/MedicalDeviceInnovation.png"
                 }
             ]
         }

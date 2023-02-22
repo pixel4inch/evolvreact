@@ -121,12 +121,10 @@ body {
         font-weight: bold;
         padding:6px !important;
     }
-
 }
 
 .equal-button[aria-expanded="true"]{
     background:#1071e7;
-
 }
 
 
