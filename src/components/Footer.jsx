@@ -7,8 +7,8 @@ import Instagarm from '../img/Social_Icons/Instagarm.png';
 import Twitter from '../img/Social_Icons/Twitter.png';
 import Youtube from '../img/Social_Icons/Youtube.png';
 
-
-
+//import COMPONENT
+import FooterNav  from "./FooterNav"
 
 function footer() {
   return (
@@ -21,16 +21,7 @@ function footer() {
 		   
 			<div className="col-xl-12 col-1g-12 col-md-12 col-12 mx-auto align-self-center">
 				<div className="block">
-					<ul className="footerLinks mb-0">
-					<li className="nav-item"><NavLink to="/datadashboard"  className="nav-link">DATA DASHBOARD</NavLink></li>
-						<li className="nav-item"><NavLink to="volunteer" className="nav-link">VOLUNTEER</NavLink></li>
-						<li className="nav-item"><NavLink to="/sponsors" className="nav-link">SPONSORS</NavLink></li>
-						<li className="nav-item"><NavLink to="/media" className="nav-link">MEDIA</NavLink></li>
-						<li className="nav-item"><NavLink to="/privacypolicy" className="nav-link">PRIVACY POLICY</NavLink></li>
-						<li className="nav-item"><NavLink to="/serviceaggrement" className="nav-link">SERVICE AGREEMENT</NavLink></li>	
-						<li className="nav-item"><NavLink to="/partner" className="nav-link">PARTNERS</NavLink></li>	
-						<li className="nav-item"><NavLink to="/contact" className="nav-link">CONTACT</NavLink></li>			
-					  </ul>
+					<FooterNav/>	
 				</div>
 			</div>
 			<div className="col-xl-11 col-1g-12 col-md-12 col-12 mx-auto footer-divider"></div>

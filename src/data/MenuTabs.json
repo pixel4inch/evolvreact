@@ -1,0 +1,94 @@
+{
+    "Header": [
+      {
+        "Tab": "About",
+        "link": "",
+        "SubTab": [
+          {
+            "subtabs": "PROFILE",
+            "sublinks": "/profile"
+          },
+          {
+            "subtabs": "LEADERSHIP",
+            "sublinks": "/leader"
+          }
+        ]
+      },
+      {
+        "Tab": "Prgorams",
+        "link": "",
+        "SubTab": [
+          {
+            "subtabs": "INNOVATOR SYNERGIES",
+            "sublinks": "/innovatorSynergies"
+          },
+          {
+            "subtabs": "SUSTAINABILITY",
+            "sublinks": "/stainability"
+          },
+          {
+            "subtabs": "INDIAN INFLUENCER",
+            "sublinks": "/indianinfluencer"
+          },
+          {
+            "subtabs": "DIVERSITY EQUITY INCLUSION",
+            "sublinks": "/diversityequityinclusion"
+          }
+        ]
+      },
+      {
+        "Tab": "Calenders",
+        "link": "/calender"
+      },
+      {
+        "Tab": "Recongnitions",
+        "link": "/recognitions"
+      },
+      {
+        "Tab": "Membership",
+        "link": "/memberShip    "
+      },
+      {
+        "Tab": "Insider",
+        "link": "/insider"
+      },
+      {
+        "Tab": "LogIn",
+        "link": "/login"
+      }
+    ],
+    "Footer": [
+      {
+        "Tab": "Data Dashboard",
+        "link": "/datadashboard"
+      },
+      {
+        "Tab": "Volunteer",
+        "link": "/volunteer"
+      },
+      {
+        "Tab": "Sponsors",
+        "link": "/sponsors"
+      },
+      {
+        "Tab": "Media",
+        "link": "/media"
+      },
+      {
+        "Tab": "Privacy Policy",
+        "link": "/privacypolicy"
+      },
+      {
+        "Tab": "Service Agreement",
+        "link": "/serviceaggrement"
+      },
+      {
+        "Tab": "Partners",
+        "link": "/partner"
+      },
+      {
+        "Tab": "Contact",
+        "link": "/contact"
+      }
+    ]
+  }

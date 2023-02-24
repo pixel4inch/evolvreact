@@ -1,5 +1,9 @@
 import React from 'react'
 
+
+//IMPORT PLUGINS
+import {  NavLink } from 'react-router-dom'
+
 // IMPORT COMPONENTS
 import { PageTitle } from '../components'
 
@@ -38,9 +42,8 @@ function Calender() {
                           <div className="row pb-4 align-items-center" >
                         {
                           post.Event.map((data, index) => 
-                          
-                          {
-                            return (data.eventtype) == "liveevent" ?
+                           {
+                            return (data.eventtype) === "liveevent" ?
 
                             <div className="  col-12 col-md-6 col-lg-5 col-xl-4  px-1 calender-lables   inpersonalevent-block   ">
                            
@@ -56,8 +59,8 @@ function Calender() {
                                   </div>
                             </div>
                               : 
-                              <div className={`col-12 col-md-6 calender-lables col-lg-4 px-1 ${data.Multi == 'Multi' ? "Multi" : ""}`}>
-                                <a href='javascript:valid(0)'>
+                              <div className={`col-12 col-md-6 calender-lables col-lg-4 px-1 ${data.Multi === 'Multi' ? "Multi" : ""}`}>
+                                <NavLink  to={`/calender/calevents/${data.EventId}`}>
                                 <div className="single-timeline-content d-flex wow ">
                                   <div className="timeline-icon">
                                     <img src={data.icon} title={data.Title} alt={data.Title}/></div>
@@ -66,14 +69,9 @@ function Calender() {
                                     <h5>{data.date}</h5>
                                   </div>
                                 </div>
-                                </a>
+                                </NavLink>
                               </div>
-
-                           
-
                             }
-                          
-                          
                           )}
                           </div>
                       </div>

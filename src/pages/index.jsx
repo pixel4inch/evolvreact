@@ -32,3 +32,9 @@ export {default as ServiceAggrement} from './ServiceAggrement'
 export {default as Partner} from './Partner'
 export {default as Contact} from './Contact'
 
+//===ERROR PAGES
+export {default as Error} from './Error'
+
+
+//===INNER PAGES
+export {default as CalEvents} from './CalEvents'

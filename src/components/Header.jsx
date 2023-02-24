@@ -1,8 +1,10 @@
 import React from 'react'
 import Logo from '../img/logo.svg'
 import B20 from '../img/B20.jpg'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
+//import COMPONENT
+import HeaderNav from "./HeaderNav"
 
 
 function header() {
@@ -18,94 +20,10 @@ function header() {
 
                <div className="collapse navbar-collapse" id="navbarNav">
 
-                  <ul className="navbar-nav mx-auto">
-                     <li className="nav-item dropdown @@about show">
-                        <NavLink className="nav-link dropdown-toggle" to="" data-toggle="dropdown" aria-expanded="true">ABOUT
-                           <span><i className="ti-angle-down"></i></span>
-                        </NavLink>
-                        <ul className="dropdown-menu show">
-                           <li>
-                              <NavLink className="dropdown-item @profile " to="/profile">
-                                 PROFILE
-                              </NavLink>
-                           </li>
-                           <li>
-                           <NavLink className="dropdown-item @profile " to="/leader">
-                           LEADERSHIP
-                           </NavLink>
-                        </li>
-                        <li>
-                        <NavLink className="dropdown-item @profile" to="/advisorcouncil">
-                        ADVISORY COUNCIL
-                        </NavLink>
-                     </li>
-                        </ul>
-                     </li>
 
-
-                     <li className="nav-item dropdown @@about show">
-                     <NavLink className="nav-link dropdown-toggle" to="" data-toggle="dropdown" aria-expanded="true">PROGRAMS
-                        <span><i className="ti-angle-down"></i></span>
-                     </NavLink>
-                     <ul className="dropdown-menu show">
-                        <li>
-                           <NavLink className="dropdown-item @profile " to="/innovatorSynergies">
-                           INNOVATOR SYNERGIES
-                           </NavLink>
-                        </li>
-                        <li>
-                        <NavLink className="dropdown-item @profile " to="/stainability">
-                        SUSTAINABILITY
-                        </NavLink>
-                     </li>
-                     <li>
-                     <NavLink className="dropdown-item @profile" to="/indianinfluencer">
-                     INDIAN INFLUENCER
-                     </NavLink>
-
-                     <NavLink className="dropdown-item @profile" to="/diversityequityinclusion">
-                     DIVERSITY EQUITY INCLUSION
-                     </NavLink>
-                  </li>
-                     </ul>
-                  </li>
-
-                     <li className="nav-item dropdown @@about show">
-                     <NavLink className="nav-link dropdown-toggle" to="/calender" >CALENDAR
-                     </NavLink>
-                     </li>
-
-                     <li className="nav-item dropdown @@about show">
-                     <NavLink className="nav-link dropdown-toggle" to="/recognitions" >RECOGNITIONS
-                     </NavLink>
-                     </li>
-
-                     <li className="nav-item dropdown @@about show">
-                     <NavLink className="nav-link dropdown-toggle" to="/memberShip" >MEMBERSHIP
-                     </NavLink>
-                     </li>
-
-                     <li className="nav-item dropdown @@about show">
-                     <NavLink className="nav-link dropdown-toggle" to="/insider" >INSIDER
-                     </NavLink>
-                     </li>
-
-                     <li className="nav-item dropdown @@about show">
-                     <NavLink className="nav-link dropdown-toggle" to="/login" >LOGIN
-                     </NavLink>
-                     </li>
-
-                 
-                     
-
-
-
+                     <HeaderNav/>
 
                   
-
-
-
-                  </ul>
 
 
                </div>

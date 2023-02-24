@@ -9,7 +9,7 @@
    Body
 ==============*/
 body {
-    font-family: var(--primaryfont);
+    font-family: var(--primaryfont) !important;
     display:flex;
     flex-direction:column;
     min-height:100vh;
@@ -246,12 +246,6 @@ ul.lower-roman {
 
 }
 
-
-#pagebanner-block {
-    display: flex;
-    justify-content: center;
-    margin-top: -17px
-}
 
 
 /*===============
@@ -490,8 +484,7 @@ pagebanners
 
 .pagebanners {
     position: relative;
-    min-height: 140px;
-    padding: 0 0;
+    padding: 30px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -512,9 +505,20 @@ pagebanners
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   /* background-image: url(../images/evolv/banner_background/effect-latest-news.svg);*/
+    background-image: url(https://www.evolv.cc/images/evolv/banner_background/effect-latest-news.svg)
 }
 
+
+.pagebanners h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+}
 /*===============
 image placekeeper
 =================*/
@@ -1022,8 +1026,6 @@ image placekeeper
 
 
 
-
-
 .hero_section.profile .container{
     z-index: 999;
 }
@@ -1037,8 +1039,7 @@ image placekeeper
     color: #ff9921;
     text-align: left;
     line-height: normal;
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: 400;
+    font-weight: 700;
     padding-left: 30px;
     display: block;
    position: relative;
@@ -1328,6 +1329,7 @@ image placekeeper
     -webkit-transition: all 0.2s linear;
     font-weight: 600;
     line-height: normal;
+    text-transform:uppercase
 }
 
 .footerLink li .nav-link {

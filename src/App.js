@@ -5,19 +5,21 @@ import './css/custome.css';
 import { Route, Routes } from "react-router-dom"
 
 // PAGES 
-import {Home, Leader, Profile, AdvisorCouncil, InnovatorSynergies, Sustainability, IndianInfluencer, DiversityEquityInclusion, Calender, Login, Insider, MemberShip, Recognitions,DataDashboard, Volunteer,  Sponsors, Media, PrivacyPolicy, ServiceAggrement, Partner,  Contact } from './pages'
+import {Home, Leader, Profile, AdvisorCouncil, InnovatorSynergies, Sustainability, IndianInfluencer, DiversityEquityInclusion, Calender, Login, Insider, MemberShip, Recognitions,DataDashboard, Volunteer,  Sponsors, Media,
+        PrivacyPolicy, ServiceAggrement, Partner,  Contact, CalEvents, Error } from './pages'
 
 // COMPONENTS
 import {Header,Footer } from './components'
 
 function App() {
+
+
   return (
     <div className="App h-100">
       <div className='d-flex flex-column h-100'>  
        <Header/>
        <div className='body-content'>
         <Routes>
-
            <Route path="/" exact element={<Home/>} />
            {/* About */ }
             <Route path="/leader" exact element={<Leader/>} />
@@ -47,6 +49,14 @@ function App() {
             <Route path="/serviceaggrement" exact element={<ServiceAggrement/>}/>
             <Route path="/Partner" exact element={<Partner/>}/>
             <Route path="/contact" exact element={<Contact/>}/>
+
+            {/* ERROR */}
+
+             <Route   path="*"  element={<Error/>}/>
+
+            {/* INNER PAGES */}
+            <Route path="/calender/calevents/:EventId" exact element={<CalEvents/>}/>
+
 
         </Routes>
        </div>
