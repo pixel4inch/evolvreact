@@ -1388,6 +1388,55 @@ hr {
 }
 
 .team-sm .image {
+  margin-bottom: 25px;
+}
+
+.team-sm .image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 9px;
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1200px) {
+  .team-sm .image {
+    width: 250px;
+  }
+}
+
+.team-sm .image img {
+  border-radius: 5px;
+}
+
+
+
+.team-sm h4.designation{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.team-sm h4.company{
+  font-size: 17px;
+  font-weight: 500;
+ 
+}
+
+
+.bord-member,
+.bord-member h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.team-sm {
+  margin-bottom: 30px;
+}
+
+.team-sm .image {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;

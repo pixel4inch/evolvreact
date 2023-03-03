@@ -1,5 +1,6 @@
 import './css/style.css';
 import './css/custome.css';
+import './css/form.css';
 
 // PLUGINS
 import { Route, Routes } from "react-router-dom"
@@ -14,7 +15,6 @@ import {
 import { Header, Footer } from './components'
 
 function App() {
-
 
   return (
     <div className="App h-100">
@@ -53,9 +53,7 @@ function App() {
             <Route path="/contact" exact element={<Contact />} />
 
             {/* ERROR */}
-
             <Route path="*" element={<Error />} />
-
             {/* INNER PAGES */}
             <Route path="/calender/calevents/:EventId" exact element={<CalEvents />} />
 
