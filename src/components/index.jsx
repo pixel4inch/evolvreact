@@ -7,3 +7,6 @@ export {default as Datagraphic} from './Datagraphic'
 export {default as VerticalsBanner} from './VerticalsBanner'
 export {default as Form1} from './Form1'
 export {default as Hero} from './HeroSection'
+export {default as SectionTitle} from './SectionTitle'
+export {default as ButtonSm} from './ButtonSm'
+

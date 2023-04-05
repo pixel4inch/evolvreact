@@ -181,8 +181,7 @@ a:hover {
 }
 
 .section-title {
-  text-align: center;
-  margin-bottom: 80px;
+  margin-bottom:30px;
 }
 
 .section-title h2 {
@@ -435,12 +434,12 @@ button:focus,
 .main-nav .navbar-nav .nav-item .nav-link {
   position: relative;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
   color: #000;
-  padding-left: 7px;
-  padding-right:7px;
+  padding-left: 8px;
+  padding-right:8px;
   line-height: 50px;
 }
 

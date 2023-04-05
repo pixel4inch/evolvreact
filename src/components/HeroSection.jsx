@@ -12,6 +12,8 @@ import HomeSlideData from"../data/SlideData.json"
 // IMAGES 
 import Herobg from '../img/hero_page/2.jpg'
 
+import image from "../img/Slides/S01.jpg"
+
 
 function HeroSection() {
 
@@ -20,10 +22,10 @@ function HeroSection() {
         loop: true,
         center: true,
         items: 3,
-        margin: 15,
+        margin: 20,
         autoplay: true,
         dots: false,
-        autoplayTimeout: 8500,
+        autoplayTimeout: 6000,
         smartSpeed: 450,
         nav: false,
         responsive: {
@@ -52,31 +54,21 @@ function HeroSection() {
                     </div>
 
 
-                    <div className="row mx-0 my-3" style={{ zIndex: "9999" }}>
+                    <div className="row mx-0 my-4" style={{ zIndex: "9999" }}>
 
-                        <div className='w-100'>
+                        <div className='w-100 '>
                         <OwlCarousel id="customer-testimonoals" className="owl-carousel owl-theme" {...options}>
-                        
-                        
                         {
                             HomeSlideData.SlidesList.map( slidedata => {
                                 return(
-                                    <div className='item' key={slidedata.id}>
-                                    <img src= {slidedata.slideImage} alt={slidedata.id}/>
-                                        
+                                    <div className='item ' key={slidedata.id}>
+                                    <img src= {slidedata.slideImage} alt={slidedata.id} className='shadow'/>
                                    </div>
                                 )
-    
                             })
                         }
-                        
-                        
-                       
-
-
                         </OwlCarousel>
-
-                        </div>
+                       </div>
                     </div>
 
                 </div>
