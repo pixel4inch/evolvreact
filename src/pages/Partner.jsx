@@ -21,12 +21,14 @@ function Partner() {
 
           <div className='row mt-4 mx-auto ligh-bg'>
             {
-              EvolvData.slice(0, 30).map((value, key) =>
+              EvolvData.slice(0, 30).map((value) =>
                 (
-                  <div className='   col-xl-2 col-lg-2    col-md-3 col-6 '   >
-                    <div class="col-11 border  my-3 mx-auto bg-white  shadow-sm d-flex align-items-center   text-center p-4" style={{ height:"100px", overflow:"hidden"}}>
-                         <img src={value.CompanyLogo} className="img-fluid" />
-                    </div>
+                  <div  key={value.Id} className='col-xl-2 col-lg-2    col-md-3 col-6 ' >
+                  <a href={value.CompanyWebSite} target='_blank' rel="noreferrer">  
+                        <div class="col-11 border  my-3 mx-auto bg-white  shadow-sm d-flex align-items-center   text-center p-4" style={{ height:"100px", overflow:"hidden"}}>
+                            <img src={value.CompanyLogo} className="img-fluid" alt={value.CompanyName} />
+                        </div>
+                    </a>  
                   
                   </div>
                   )

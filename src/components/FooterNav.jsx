@@ -11,10 +11,10 @@ function FooterNav() {
   return (
     <>
 
-    <ul class="footerLinks">
+    <ul className="footerLinks">
         {MenuData.Footer.map(data => {
             return (
-                <li class="nav-item">
+                <li className="nav-item" key={data.id}>
                 <NavLink className="nav-link dropdown-toggle" to={data.link} >{data.Tab}
                 </NavLink>
                 </li>

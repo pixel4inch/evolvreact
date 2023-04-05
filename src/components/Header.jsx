@@ -10,7 +10,7 @@ import HeaderNav from "./HeaderNav"
 function header() {
    return (
       <>
-         <nav class="navbar main-nav navbar-expand-lg px-2 pt-0 pb-2 customeNavBar border-bottom active">
+         <nav className="navbar main-nav navbar-expand-lg px-2 pt-0 pb-2 customeNavBar border-bottom active">
             <div className="container">
                <Link className="navbar-brand" to="/"><img src={Logo} alt="Evolv" className="brandImg" /></Link>
 

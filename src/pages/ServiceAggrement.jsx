@@ -10,23 +10,19 @@ function ServiceAggrement() {
       <div className="container">
        <PageTitle title="EVOLV™ SERVICE AGREEMENT" />
            
-       <div class="col-xl-10 col-lg-12 col-12 mx-auto">
+       <div className="col-xl-10 col-lg-12 col-12 mx-auto serviceAgrements">
 
-            <p className="para-display2 d-block">Version: 1/2023 </p>
+            <p className="d-block">Version: 1/2023 </p>
             
 
-            <p className="para-display2 font-weight-bold  d-block  mt-3">GENERAL TERMS AND CONDITIONS </p>
+            <p className="font-weight-bold  d-block  mt-3">GENERAL TERMS AND CONDITIONS </p>
 
 
-
-            <h4 class="font-display3 d-block mt-3">
+            <h4 className="font-display4 mt-5 d-block">
                 1. INTRODUCTION AND BACKGROUND
             </h4>
 
-
-
-
-            <p className=" para-display2 mb-3">CII-Evolv™ and its affiliate entities including data providers StrategyR™ and ZING™,
+            <p className=" mb-3">CII-Evolv™ and its affiliate entities including data providers StrategyR™ and ZING™,
                 (hereinafter "Evolv™" or "we"), is an Indian-owned non-profit powerhouse, Confederation of Indian
                 Industry (hereinafter called “CII™”). These Evolv™ General Terms and Conditions (hereinafter the
                 "Terms") set out the terms and conditions applicable to and in connection with the use of Evolv™
@@ -41,19 +37,19 @@ function ServiceAggrement() {
 
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 2. USE OF EVOLV™ SERVICES
             </h4>
 
 
-            <p className=" para-display2 mb-3"><u>2.1 Users:</u> : Evolv™ Services can be used by an individual user (“Individual
+            <p className=" mb-3"><u><b>2.1 Users:</b></u>  Evolv™ Services can be used by an individual user (“Individual
                 User”) or by an authorized representative of a legal entity (“Business User”). The Business User
                 confirms that the legal entity accepts these Terms and that the Business User has the right to
                 represent such entity for the purposes of these Terms. Individual User and the Business User
                 hereinafter together referred to as the "User", or “you”. By using and/or registering to Evolv™
                 Services, the User accepts and agrees to comply with and be bound by these Terms. </p>
 
-                <p className=" para-display2 mb-3"><u>2.2 User Accounts:</u> The User may register for Evolv™ Services by filling in
+                <p className=" mb-3"><u><b>2.2 User Accounts:</b></u> The User may register for Evolv™ Services by filling in
                 the registration form and creating a profile (hereinafter the “User Account”) on Evolv™ Services.
                 When registering to Evolv™ Services, the User is responsible for providing accurate and complete
                 registration data and other information as requested by Evolv™. The User may later modify the
@@ -70,11 +66,11 @@ function ServiceAggrement() {
                 inaccurate, inappropriate, unauthorized or illegal content to Evolv™ Services or caused harm to us
                 or the other Users of Evolv™ Services.</p>
 
-                <p className=" para-display2 mb-3"><u>2.3. Use Restrictions:</u> The User having a User Account is not permitted nor
+                <p className=" mb-3"><u><b>2.3. Use Restrictions:</b></u> The User having a User Account is not permitted nor
                 entitled to do any of the following: </p>
 
 
-            <ul className="mt-3 pl-5">
+            <ul className="mt-3 pl-5" >
                 <li>Sign up for a User Account on behalf of someone else; </li>
                 <li>Use the User Account for transmitting any unauthorized advertising, promotional materials,
                     junk mail, spam, chain letters, contests, pyramid schemes, or any other form of solicitation
@@ -90,14 +86,14 @@ function ServiceAggrement() {
             </ul>
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 3. USER CONTENT ON EVOLV™ SERVICES
             </h4>
 
 
 
 
-            <p className=" para-display2 mb-3">In connection with the registration and use of Evolv™ Services, Users may submit content, data and
+            <p className=" mb-3">In connection with the registration and use of Evolv™ Services, Users may submit content, data and
                 information, including without limitation text, photographs and information through the chat
                 function, to Evolv™ Services (“User Content”). The User is solely responsible for all content that
                 the User uploads/transmits to Evolv™ Services, including ensuring that it has all relevant rights to
@@ -117,14 +113,14 @@ function ServiceAggrement() {
 
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 4. INTELLECTUAL PROPERTY
             </h4>
 
 
 
 
-            <p className=" para-display2 mb-3">Evolv™ owns and retains all intellectual property rights, including ownership of whatever IPR or
+            <p className=" mb-3">Evolv™ owns and retains all intellectual property rights, including ownership of whatever IPR or
                 confidential information, including know-how and trade secrets, in Evolv™ Services. Evolv™ reserves
                 all rights not expressly granted under these Terms. Evolv™'s brand name and logo are owned by
                 Evolv™, and may not be copied, imitated or used without prior written consent of Evolv™. Nothing in
@@ -136,11 +132,11 @@ function ServiceAggrement() {
 
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 5. PERSONAL DATA
             </h4>
 
-            <p className=" para-display2 mb-3">Evolv™ collects and processes data, including personal data, in relation to User’s registration to
+            <p className=" mb-3">Evolv™ collects and processes data, including personal data, in relation to User’s registration to
                 and use of Evolv™ Services in accordance with its Privacy Policy in force from time to time. If
                 registration for the Evolv™ side event of the Business User takes place on Evolv™ platform (not
                 redirecting to other registration site), the Business User and Evolv™ shall be joint controllers for
@@ -156,11 +152,11 @@ function ServiceAggrement() {
 
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 6. CANCELLATION, POSTPONEMENT AND SUBSTITUTION POLICY
             </h4>
 
-            <p className=" para-display2 mb-3">Evolv™ accepts no responsibility or liability whatsoever for any loss or damage of any kind incurred
+            <p className=" mb-3">Evolv™ accepts no responsibility or liability whatsoever for any loss or damage of any kind incurred
                 as a result of substitution, alteration, cancellation, rescheduling or postponement of Evolv™
                 Services. In case of an unforeseen or exceptional incident, restriction or another circumstance
                 likely having an effect on Evolv™ Services, Evolv™ reserves the right to make changes to the dates
@@ -180,11 +176,11 @@ function ServiceAggrement() {
 
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 7. LIABILITY
             </h4>
 
-            <p className=" para-display2 mb-3">Evolv™ will make commercially reasonable efforts to keep Evolv™ Services operational. However,
+            <p className=" mb-3">Evolv™ will make commercially reasonable efforts to keep Evolv™ Services operational. However,
                 certain technical difficulties or maintenance may, from time to time, result in temporary
                 interruptions. Evolv™ reserves the right, periodically and at any time, to modify or discontinue,
                 temporarily or permanently, functions and features of Evolv™ Services. To the maximum extent allowed
@@ -204,14 +200,14 @@ function ServiceAggrement() {
 
 
 
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 8. FORCE MAJEURE
             </h4>
 
 
 
 
-            <p className=" para-display2 mb-3">Evolv™ will not be liable to the User for any breach, omission, delay or non-performance
+            <p className=" mb-3">Evolv™ will not be liable to the User for any breach, omission, delay or non-performance
                 of its obligations in any event of Force Majeure. Force Majeure shall mean any event mentioned below
                 or any other event, impediment or circumstance occurring within or affecting Evolv™, which:</p>
             <ul className="mt-2 lower-roman">
@@ -224,7 +220,7 @@ function ServiceAggrement() {
                     Evolv™ Services without liability towards the Users. </li>
 
             </ul>
-            <p className=" para-display2 mb-3">For the purposes of these Terms, examples of “Force Majeure Events” include, but are
+            <p className=" mb-3">For the purposes of these Terms, examples of “Force Majeure Events” include, but are
                 not limited to, the following events and circumstances </p>
 
             <ul className="mt-2 lower-roman">
@@ -248,13 +244,11 @@ function ServiceAggrement() {
                 </li>
             </ul>
 
-
-
-            <h4 class="font-display4">
+            <h4 className="font-display4 mt-5">
                 9 . MISCELLANEOUS
             </h4>
 
-            <p className=" para-display2 mb-3">These Terms only cover Evolv™ Services and the use thereof, and any and all linked third-party
+            <p className=" mb-3">These Terms only cover Evolv™ Services and the use thereof, and any and all linked third-party
                 services and platforms are provided by the relevant third parties and covered by their terms of use
                 or other agreement or license. Evolv™ does not assume any liability with regard to use of such
                 third-party services and platforms, whether or not they are linked to Evolv™ Services. The content
@@ -264,11 +258,7 @@ function ServiceAggrement() {
                 Services is solely at the User’s own risk. If any provision of these Terms is held invalid or
                 unenforceable, the remainder of these Terms shall continue in full force and effect. No agency,
                 partnership, or employment is created as a result of these Terms. </p>
-
        
-
-
-                 
           </div>  
            
      </div>

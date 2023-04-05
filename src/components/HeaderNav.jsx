@@ -12,12 +12,12 @@ function HeaderNav() {
     <ul className="navbar-nav mx-auto">
         {MenuData.Header.map(data => {
             return (data.SubTab == undefined  ? 
-                <li className="nav-item dropdown @@about">
+                <li className="nav-item dropdown @@about" key={data.id}>
                     <NavLink className="nav-link dropdown-toggle" to={data.link} >{data.Tab} </NavLink>
                 </li>
 
                 :
-                <li className="nav-item dropdown @@about ">
+                <li className="nav-item dropdown @@about " key={data.id}>
                 <a className="nav-link dropdown-toggle"  data-toggle="dropdown" aria-expanded="true"> {data.Tab}
                    <span><i className="ti-angle-down"></i></span>
                 </a>
@@ -26,7 +26,7 @@ function HeaderNav() {
                     {
                         data.SubTab.map( subdata => {
                             return(
-                                <li>
+                                <li key={subdata.id}>
                                         <NavLink className="dropdown-item @profile " to={subdata.sublinks}>
                                             {subdata.subtabs}
                                         </NavLink>
