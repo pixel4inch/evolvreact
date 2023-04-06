@@ -18,10 +18,7 @@ function Profile() {
                         opportunity for innovators, investors, big enterprises, and governments to get engaged.</p>
                 </div>
             </section>
-
         </>
-
-
     )
 }
 
